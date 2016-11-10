@@ -24,6 +24,14 @@ body	{
 	margin: 0;
 }
 
+.contact-item	{
+	display: inline;
+	text-align: center;
+	list-style-type: none;
+	padding: 0 120px 0 0;
+	font-weight: bold;
+}
+
 .resume-button	{
 	position: fixed;
 	top: 10px;
@@ -139,6 +147,11 @@ h1	{
 }
 
 @media all and (max-width: 960px) and (min-width: 481px)	{
+	.contact-item	{
+		padding: 10px 0 0 0;
+		display: block;
+	}
+
 	.nav-bar-item	{
 		padding: 0 40px 0 0;
 	}
@@ -153,6 +166,11 @@ h1	{
 @media all and (max-width: 480px)	{
 	.website-image	{
 		width: 90%;
+	}
+
+	.contact-item	{
+		padding: 10px 0 0 0;
+		display: block;
 	}
 
 	.nav-bar-list	{
